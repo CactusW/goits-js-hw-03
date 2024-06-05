@@ -1,11 +1,11 @@
 function makeArray(firstArray, secondArray, maxLength) {
 
-    const commonArray = firstArray.concat(secondArray); {
+    const commonArray = firstArray.concat(secondArray); 
 
     
-        if (commonArray.length > maxLength);
+        if (commonArray.length > maxLength) { 
             return commonArray.slice(0, maxLength);
-    }
+    }   
     return commonArray;
 }
 
